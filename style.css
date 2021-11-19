@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Lobster&family=Righteous&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body {
+    background-image: url("พื้นหลังเว็บ.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(90, 90,90);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(33, 33, 33, 0.8);
+}
+/*Smile Home*/
+header #Home {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+/*All menu*/
+header ul li a {
+    margin-top: 13px;
+    display: inline-block;
+    color: rgba(88,88,88,0.5);
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header ul li #Contact {
+    border: solid white 2px;
+    border-radius: 150px;
+    padding: 5px 18px;
+    margin-top: 6px;
+}
+
+
+.content .textbox{
+    margin-top: 13%;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+.content .textbox h2 {
+    font-family: 'Londrina Outline', cursive;
+}
+
+.content .textbox p {
+    font-size: 40px;
+    word-spacing: 4px;
+}
+/* เนื้อหา smile dessert*/
+.smiledessert {
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    background-color: rgba(33,33,33,0.8);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.smiledessert h1{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
+.smiledessert p{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.smiledessert a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/*เนื้อหา smile friend*/
+.smilefriend {
+    margin-bottom: 40px;
+    text-align: end;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    background-color: rgba(33,33,33,0.8);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.smilefriend h1{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
+.smilefriend p{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.smilefriend a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+/*เนื้อหา Fake Grab*/
+.fakegrab {
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    background-color: rgba(33,33,33,0.8);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.fakegrab h1{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
+.fakegrab p{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.fakegrab .linkgit a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
