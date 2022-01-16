@@ -1,0 +1,20 @@
+@media screen and (min-width: 1200px){
+    .smiledessert , .smileFriend , .fakegrab {
+    display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .smileFriend .textbox {
+        text-align: right;
+    margin: auto;
+    margin-right: 10px;
+    padding-left: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .smileFriend .video video{
+    display: block;
+    }
+}
